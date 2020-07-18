@@ -132,7 +132,7 @@ class WebsocketManager extends EventEmitter {
         if (this._disconnected) return;
         this._ws.terminate();
         this._disconnected = true;
-        this.emit("terminated websocket connection!");
+        this.emit("debug", "terminated websocket connection!");
     }
 
 }
