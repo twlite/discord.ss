@@ -1,0 +1,31 @@
+{
+  "name": "discord.ss",
+  "version": "0.0.0",
+  "description": "Simple library to interact with discord api.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd test && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snowflake107/discord.ss.git"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "discordscript",
+    "discord.ss"
+  ],
+  "author": "Snowflake107",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Snowflake107/discord.ss/issues"
+  },
+  "homepage": "https://github.com/Snowflake107/discord.ss#readme",
+  "dependencies": {
+    "form-data": "^3.0.0",
+    "node-fetch": "^2.6.0",
+    "ws": "^7.3.1",
+    "zlib-sync": "^0.1.7"
+  }
+}
